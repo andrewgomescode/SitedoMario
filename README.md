@@ -1,2 +1,0 @@
-# SiteDoMario
- curso front-end
