@@ -1,31 +1,68 @@
-.logo-mario{
-    width: 200px;
+/* SELECIONANDO TUDO "* {" */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     display: flex;
     height: 100vh;
     align-items: center;
-    width: 80%;
+    justify-content: space-evenly;
+}
+
+.logo-mario{
+    width: 300px;
 }
 
 .imagem-mario-luigi{
     height: 600px;
 }
 
-.faleconosco{
-    text-align: center;
-}
-
 .texto-esquerda{
-    text-align: justify;
-    margin: 0px;
+    width: 40%;
 }
 
-#video-background {
+p{
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.faleconosco{
+    height: 40px;
+    width: 200px;
+    background-color: #C51111;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.background-div{
     position: fixed;
-    right: 0;
-    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.background-video{
+    position: fixed;
+    top: 0;
     min-width: 100%;
     min-height: 100%;
+}
+
+.background-mask{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(107deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3533788515406162) 49%, rgba(0,0,0,1) 100%);
 }
