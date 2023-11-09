@@ -1,0 +1,31 @@
+.logo-mario{
+    width: 200px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    width: 80%;
+}
+
+.imagem-mario-luigi{
+    height: 600px;
+}
+
+.faleconosco{
+    text-align: center;
+}
+
+.texto-esquerda{
+    text-align: justify;
+    margin: 0px;
+}
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
